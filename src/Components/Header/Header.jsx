@@ -74,7 +74,7 @@ const Header = () => {
               Testimonials
             </Link>
           </li>
-          <li>
+          {/* <li>
             <a
               onClick={() => setMenuOpened(false)}
               href="https://www.aidevcore.com/contact-us"
@@ -83,7 +83,7 @@ const Header = () => {
             >
               Contact us
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               onClick={() => setMenuOpened(false)}
