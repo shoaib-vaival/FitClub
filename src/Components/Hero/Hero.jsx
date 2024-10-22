@@ -68,20 +68,18 @@ const Hero = () => {
 
         {/* hero buttons */}
         <div className="hero-btns">
-          <button className="btn">Get Started</button>
-          <button className="btn">Learn More</button>
+          <a className="btn" href="https://www.aidevcore.com/">Get Started</a>
+          <a href="https://www.aidevcore.com/" className="btn">Learn More</a>
         </div>
       </div>
 
       {/* Right Side */}
       <div className="right-h">
-      <Link className="btn"
-              to="contact"
-              spy={true}
-              smooth={true}
+      <a className="btn"
+              href="https://www.aidevcore.com/sign-up"
             >
               Join now
-            </Link>
+            </a>
 
         {/* heart rate */}
         <motion.div

@@ -9,7 +9,7 @@ const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   return (
     <div className="header" id="header">
-      <img src={Logo} alt="" className="logo" />
+     <a href="https://www.aidevcore.com/"> <img src={Logo} alt="" className="logo" /></a>
       {(menuOpened===false && mobile===true)? (
         <div
           style={{ backgroundColor: "var(--appColor)", padding: "0.5rem", borderRadius: "5px" }}
@@ -75,24 +75,24 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link
+            <a
               onClick={() => setMenuOpened(false)}
-              to="contact"
+              href="https://www.aidevcore.com/contact-us"
               spy={true}
               smooth={true}
             >
               Contact us
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
+            <a
               onClick={() => setMenuOpened(false)}
-              to="about"
+              href="https://www.aidevcore.com/about-us"
               spy={true}
               smooth={true}
             >
               About us
-            </Link>
+            </a>
           </li>
         </ul>
       )}

@@ -43,7 +43,6 @@ const Contact = () => {
             <span>CONTACT</span>
             <span>US</span>
           </div>
-          <div className="app-contact">CONTACT INFO : +62 81 314 928 595</div>
         </div>
         <div className="screen-body-item">
           <div className="app-form">
@@ -67,7 +66,7 @@ const Contact = () => {
             </div>
             <div className="app-form-group buttons">
               <button className="app-form-button" data-bs-dismiss="modal">CANCEL</button>
-              <button className="app-form-button" onClick={whatsapp}>SEND</button>
+              <button className="app-form-button" >SEND</button>
             </div>
           </div>
         </div>

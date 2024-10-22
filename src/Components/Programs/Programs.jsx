@@ -18,7 +18,7 @@ const Programs= () => {
                     <span>{program.heading}</span>
                     <span>{program.details}</span>
                     <div className="join-now">
-                        <span>Join Now</span>
+                        <a href='https://www.aidevcore.com/sign-up'>Join Now</a>
                         <img src={RightArrow} alt="Right Arrow"/>
                     </div>
                 </div>

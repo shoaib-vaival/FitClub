@@ -11,7 +11,7 @@
   gap: 1rem;
 }
 .right-h {
-  background-color: #f43716;
+  background-color: #1146f6ab ;
   flex: 1;
   position: relative;
 }
@@ -55,7 +55,7 @@
 }
 .the-best > div {
   position: absolute;
-  background-color: #f44d16;
+  background-color: #9b1bb9 ;
   width: 5.4rem;
   height: 80%;
   left: 8px;
