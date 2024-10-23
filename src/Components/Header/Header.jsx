@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Logo from "../../assets/logo.png";
 import "./Header.css";
 import { Link } from "react-scroll";
 import Bars from "../../assets/bars.png";
@@ -9,10 +8,17 @@ const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   return (
     <div className="header" id="header">
-     <a href="https://www.aidevcore.com/"> <img src={Logo} alt="" className="logo" /></a>
-      {(menuOpened===false && mobile===true)? (
+      <a href="https://www.aidevcore.com/">
+        {" "}
+        <h3>XYZ</h3>
+      </a>
+      {menuOpened === false && mobile === true ? (
         <div
-          style={{ backgroundColor: "var(--appColor)", padding: "0.5rem", borderRadius: "5px" }}
+          style={{
+            backgroundColor: "var(--appColor)",
+            padding: "0.5rem",
+            borderRadius: "5px",
+          }}
           onClick={() => setMenuOpened(true)}
         >
           <img
